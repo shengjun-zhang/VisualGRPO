@@ -1,0 +1,19 @@
+# 标准 GRPO 算法配置
+
+algorithm_type: grpo
+
+# GRPO 超参数
+num_generations: 12
+clip_range: 1e-4
+adv_clip_max: 5.0
+
+# 采样配置
+eta: 0.7
+eta_step_list: [1]
+eta_step_merge_list: [1]
+granular_list: [1]
+
+# 是否使用相同噪声
+init_same_noise: true
+
+

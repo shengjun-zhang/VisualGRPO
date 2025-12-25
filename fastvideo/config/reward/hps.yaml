@@ -1,0 +1,13 @@
+# HPS (Human Preference Score) 奖励模型配置
+
+reward_type: hps
+
+# HPS 模型配置
+model_name: ViT-H-14
+hps_path: /data2/zsj/VisualGRPO/VisualRL/ckpt/hps/HPS_v2_compressed.pt
+clip_path: /data2/zsj/VisualGRPO/VisualRL/ckpt/CLIP-ViT-H-14-laion2B-s32B-b79K/open_clip_pytorch_model.bin
+
+# 奖励权重（用于多奖励组合时）
+weight: 1.0
+
+

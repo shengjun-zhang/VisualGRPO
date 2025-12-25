@@ -1,0 +1,13 @@
+# Flux 模型配置
+
+model_type: flux
+
+# 模型路径
+pretrained_model_name_or_path: /data2/zsj/VisualGRPO/VisualRL/ckpt/flux
+
+# 模型参数
+in_channels: 16
+spatial_downsample: 8
+vae_scale_factor: 8
+
+

@@ -1,0 +1,18 @@
+# 组合奖励模型配置
+
+reward_type: combined
+
+# 多个奖励模型的配置
+models:
+  - type: hps
+    model_name: ViT-H-14
+    hps_path: null
+    clip_path: null
+    weight: 0.7
+  
+  - type: clip
+    model_name: ViT-H-14
+    pretrained: laion2b_s32b_b79k
+    weight: 0.3
+
+

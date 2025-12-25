@@ -1,0 +1,12 @@
+# CLIP Score 奖励模型配置
+
+reward_type: clip
+
+# CLIP 模型配置
+model_name: ViT-H-14
+pretrained: laion2b_s32b_b79k
+
+# 奖励权重
+weight: 1.0
+
+

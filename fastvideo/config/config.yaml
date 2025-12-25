@@ -1,0 +1,82 @@
+# VisualGRPO 主配置文件
+# 使用 Hydra 进行配置管理
+
+defaults:
+  - model: flux
+  - reward: hps
+  - algorithm: grpo_merge
+  - _self_
+
+# 通用配置
+seed: 42
+output_dir: exp_flux/test
+
+# WandB 配置
+wandb:
+  enabled: false  # 暂时关闭，设为 true 启用
+  project: "VisualGRPO"
+  entity: null  # 你的 wandb 用户名或团队名
+  name: null    # 运行名称，null 则自动生成
+  tags: []
+  notes: ""
+
+# 数据配置
+data:
+  json_path: /data2/zsj/VisualGRPO/VisualRL/data/rl_embeddings/videos2caption.json
+  num_latent_t: 1
+  cfg_rate: 0.0
+  dataloader_num_workers: 4
+  train_batch_size: 1
+
+# 训练配置
+training:
+  max_train_steps: 300
+  learning_rate: 1e-5
+  weight_decay: 0.0001
+  lr_scheduler: constant_with_warmup
+  lr_warmup_steps: 0
+  lr_num_cycles: 1
+  lr_power: 1.0
+  max_grad_norm: 1.0
+  checkpointing_steps: 500
+  mixed_precision: bf16
+  gradient_checkpointing: true
+  selective_checkpointing: 1.0
+
+# 分布式配置
+distributed:
+  sp_size: 1
+  train_sp_batch_size: 1
+  fsdp_sharding_strategy: full
+  use_cpu_offload: false
+  master_weight_type: fp32
+
+# 采样配置
+sampling:
+  height: 720
+  width: 720
+  sampling_steps: 16
+  eta: 0.7
+  shift: 3.0
+  guidance_scale: 3.5
+  sampler_seed: 1223627
+
+# GRPO 算法配置
+grpo:
+  num_generations: 12
+  init_same_noise: true
+  clip_range: 1e-4
+  adv_clip_max: 5.0
+  eta_step_list: [1]
+  eta_step_merge_list: [1]
+  granular_list: [1, 2]
+
+# Hydra 配置
+hydra:
+  run:
+    dir: ${output_dir}
+  sweep:
+    dir: ${output_dir}/multirun
+    subdir: ${hydra.job.num}
+
+
