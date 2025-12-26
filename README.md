@@ -1,12 +1,18 @@
-# E-GRPO: High Entropy Steps Drive Effective Reinforcement Learning for Flow Models
+<p align="center">
+    <h1 align="center">E-GRPO: High Entropy Steps Drive Effective Reinforcement Learning for Flow Models</h1>
+<p align="center">
 
-**[E-GRPO: High Entropy Steps Drive Effective Reinforcement Learning for Flow Models]()**
-</br>
-[Shengjun Zhang](),
-[Zhang Zhang](),
-[Chensheng Dai](),
-[Yueqi Duan<sup>†</sup>]()
-(<sup>†</sup>Corresponding Author)
+<p align="center">
+    <span class="author-block">
+        <a href="https://shengjun-zhang.github.io/">Shengjun Zhang</a></span>,&nbsp;
+    <span class="author-block">
+        <a href="https://www.zzhang.tech/">Zhang Zhang</a></span>,&nbsp;
+<span class="author-block">
+        <a href="https://github.com/Simon-Dcs">Chensheng Dai</a></span>,&nbsp;
+    <span class="author-block">
+        <a href="https://duanyueqi.github.io/">Yueqi Duan</a></span>&nbsp;
+</p>
+
 
 [![arXiv]()]()
 [![Project Page]()]()
