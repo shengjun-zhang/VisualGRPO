@@ -15,25 +15,21 @@
 
 <div align="center">
     <a href="" target="_blank">
-    <img src="https://img.shields.io/badge/Report-b5212f.svg?logo=arxiv" height="22px" alt="ArXiv Report">
+    <img src="https://img.shields.io/badge/Report-b5212f.svg?logo=arxiv" height="33px" alt="ArXiv Report">
   </a>
   <a href="https://github.com/shengjun-zhang/VisualGRPO" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-Repo-181717?logo=github&logoColor=white" height="22px" alt="Github Repo">
+    <img src="https://img.shields.io/badge/GitHub-Repo-181717?logo=github&logoColor=white" height="33px" alt="Github Repo">
   </a>
   <a href="https://huggingface.co/studyOverflow/E-GRPO" target="_blank">
-    <img src="https://img.shields.io/badge/%F0%9F%A4%97%20Models-d96902.svg" height="22px" alt="HuggingFace Models">
+    <img src="https://img.shields.io/badge/%F0%9F%A4%97%20Models-d96902.svg" height="33px" alt="HuggingFace Models">
   </a>
-  
-  
 </div>
 
 ## 📜 News
 
-- [ ] Code is available now!
-
-- [x] Write the press release
-- [ ] Update the website
-- [ ] Contact the media
+- [x] Release the source code and checkpoints of E-GRPO
+- [x] Release the source code and checkpoints of other supported methods
+- [ ] Release training scripts of other supported methods
 
 ## 🚀 Method Overview
 
