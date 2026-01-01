@@ -13,14 +13,27 @@
         <a href="https://duanyueqi.github.io/">Yueqi Duan</a></span>&nbsp;
 </p>
 
-
-[![arXiv]()]()
-[![Project Page]()]()
-[![Hugging Face]()]()
+<div align="center">
+    <a href="" target="_blank">
+    <img src="https://img.shields.io/badge/Report-b5212f.svg?logo=arxiv" height="22px" alt="ArXiv Report">
+  </a>
+  <a href="https://github.com/shengjun-zhang/VisualGRPO" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-Repo-181717?logo=github&logoColor=white" height="22px" alt="Github Repo">
+  </a>
+  <a href="https://huggingface.co/studyOverflow/E-GRPO" target="_blank">
+    <img src="https://img.shields.io/badge/%F0%9F%A4%97%20Models-d96902.svg" height="22px" alt="HuggingFace Models">
+  </a>
+  
+  
+</div>
 
 ## 📜 News
 
-**[2025/12/25]** Code is available now!
+- [ ] Code is available now!
+
+- [x] Write the press release
+- [ ] Update the website
+- [ ] Contact the media
 
 ## 🚀 Method Overview
 
