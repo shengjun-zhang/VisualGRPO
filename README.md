@@ -1,5 +1,5 @@
 <p align="center">
-    <h1 align="center">E-GRPO: High Entropy Steps Drive Effective Reinforcement Learning for Flow Models</h1>
+    <h2 align="center">E-GRPO: High Entropy Steps Drive Effective Reinforcement Learning for Flow Models</h2>
 <p align="center">
 
 <p align="center">
