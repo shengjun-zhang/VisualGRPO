@@ -14,7 +14,7 @@
 </p>
 
 <div align="center">
-    <a href="" target="_blank">
+    <a href="https://arxiv.org/abs/2601.00423" target="_blank">
     <img src="https://img.shields.io/badge/Report-b5212f.svg?logo=arxiv" height="33px" alt="ArXiv Report">
   </a>
   <a href="https://github.com/shengjun-zhang/VisualGRPO" target="_blank">
@@ -32,10 +32,6 @@
 - [ ] Release training scripts of other supported methods
 
 ## 🚀 Method Overview
-
-<div align="center">
-    <img src=''/>
-</div>
 
 E-GRPO (Entropy-Guided GRPO) is a novel reinforcement learning approach for flow-based diffusion models. Our key insight is that **high-entropy denoising steps are more critical for policy optimization**, and we propose a merging-step strategy that focuses training on these important steps.
 
